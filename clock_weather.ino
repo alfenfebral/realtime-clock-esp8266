@@ -24,8 +24,6 @@
 #include <TimeLib.h>
 #include <Timezone.h>
 #include <OLEDDisplayUi.h>
-// Include custom images
-#include "images.h"
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
 #include "icons.h"
