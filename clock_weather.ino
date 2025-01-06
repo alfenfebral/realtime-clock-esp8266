@@ -48,8 +48,8 @@ SSD1306 display(DISPLAY_ADDRESS, SDA, SCL); // 0x3d for the Adafruit 1.3" OLED, 
 
 OLEDDisplayUi ui(&display);
 
-const char *ssid = "BLACK ANGEL 1";     // insert your own ssid
-const char *password = "blackangel123"; // and password
+const char *ssid = "YOUR-SSID-NAME";         // insert your own ssid
+const char *password = "YOUR-SSID-PASSWORD"; // and password
 String date;
 String t;
 const char *days[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
@@ -62,7 +62,7 @@ int clockCenterX = screenW / 2;
 int clockCenterY = ((screenH - 16) / 2) + 16; // top yellow part is 16 px height
 
 // OpenWeatherMap API key and city
-const String apiKey = "8f2880f4146d21a1ca44fae2e30bca26";
+const String apiKey = "YOUR-API-KEY";
 const String city = "Bogor";
 const String countryCode = "ID"; // Use your country's ISO code
 
